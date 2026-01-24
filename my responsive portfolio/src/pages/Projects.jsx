@@ -41,6 +41,21 @@ const Projects = () => {
       featured: true,
       icon: <FaRocket />
     },
+
+
+   {
+      title: "MY responsive Portfolio",
+      description: "A full CRUD application that lets users create, read, update, and delete records. Features state management, form validation, and clean UI components.",
+      tech: ["React.js", "Tailwind CSS", "JavaScript"],
+      category: "react",
+      live: "https://vercel.com/awaistanveer-21s-projects/reactjs-with-vite-and-tailwindcss-1c4q",
+      github: "https://github.com/AwaisTanveer-21/Reactjs-with-Vite-and-Tailwindcss/edit/main/my%20responsive%20portfolio",
+      featured: false,
+      icon: <FaCode />
+    },
+
+
+    
     {
       title: "CRUD App",
       description: "A full CRUD application that lets users create, read, update, and delete records. Features state management, form validation, and clean UI components.",
@@ -414,5 +429,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;
