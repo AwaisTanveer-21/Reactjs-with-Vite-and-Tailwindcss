@@ -31,10 +31,23 @@ const Projects = () => {
   };
 
   const projectList = [
+   
+     {
+      title: "My Advanced Portfolio Website with animations",
+      description: "A personal portfolio built with React.js, Vite,Tailwind CSS and Framermotion. Showcases my skills, projects, and professional branding with modern animations and responsive design.",
+      tech: ["React.js", "Vite", "Tailwind CSS", "Framer Motion"],
+      category: "reactjs",
+      live: "https://vercel.com/awaistanveer-21s-projects/reactjs-with-vite-and-tailwindcss-1c4q",
+      github: "https://github.com/AwaisTanveer-21/Reactjs-with-Vite-and-Tailwindcss/edit/main/my%20responsive%20portfolio",
+      featured: true,
+      icon: <FaRocket />
+    },
+    
+    
     {
       title: "My Portfolio Website",
       description: "A personal portfolio built with React.js, Vite, and Tailwind CSS. Showcases my skills, projects, and professional branding with modern animations and responsive design.",
-      tech: ["React.js", "Vite", "Tailwind CSS", "Framer Motion"],
+      tech: ["React.js", "Vite", "Tailwind CSS",],
       category: "react",
       live: "https://your-portfolio-live-url",
       github: "https://github.com/AwaisTanveer-21/Reactjs-with-Vite-and-Tailwindcss/tree/main/Portfolio",
@@ -43,24 +56,13 @@ const Projects = () => {
     },
 
 
-   {
-      title: "MY responsive Portfolio",
-      description: "A full CRUD application that lets users create, read, update, and delete records. Features state management, form validation, and clean UI components.",
-      tech: ["React.js", "Tailwind CSS", "JavaScript"],
-      category: "react",
-      live: "https://vercel.com/awaistanveer-21s-projects/reactjs-with-vite-and-tailwindcss-1c4q",
-      github: "https://github.com/AwaisTanveer-21/Reactjs-with-Vite-and-Tailwindcss/edit/main/my%20responsive%20portfolio",
-      featured: false,
-      icon: <FaCode />
-    },
-
-
+ 
     
     {
       title: "CRUD App",
       description: "A full CRUD application that lets users create, read, update, and delete records. Features state management, form validation, and clean UI components.",
       tech: ["React.js", "Tailwind CSS", "JavaScript"],
-      category: "react",
+      category: "reactjs",
       live: "https://github.com/AwaisTanveer-21/Reactjs-with-Vite-and-Tailwindcss/tree/main/CRUD%20APP",
       github: "https://github.com/AwaisTanveer-21/Reactjs-with-Vite-and-Tailwindcss/tree/main/CRUD%20APP",
       featured: false,
@@ -70,7 +72,7 @@ const Projects = () => {
       title: "Counter + Calculator + BMI Tools",
       description: "A set of small utility web apps including a counter, calculator, and BMI calculator. Built to practice logic, state management, and UI design principles.",
       tech: ["JavaScript", "React.js", "Tailwind CSS"],
-      category: "react",
+      category: "reactjs",
       github: "https://github.com/AwaisTanveer-21/Reactjs-projects",
       featured: false,
       icon: <FaCode />
@@ -79,7 +81,7 @@ const Projects = () => {
       title: "E-commerce App",
       description: "A responsive e-commerce frontend demonstrating product listings, shopping cart functionality, and checkout UI with modern design patterns.",
       tech: ["React.js", "Tailwind CSS", "Vite"],
-      category: "react",
+      category: "reactjs",
       github: "https://github.com/AwaisTanveer-21/Reactjs-projects/blob/main/e-commerce%20clone.rar",
       featured: false,
       icon: <FaCode />
@@ -88,7 +90,7 @@ const Projects = () => {
       title: "Responsive Navbar",
       description: "A custom responsive navbar component with smooth animations and mobile-first design approach.",
       tech: ["React.js", "Tailwind CSS", "JavaScript"],
-      category: "react",
+      category: "reactjs",
       github: "https://github.com/AwaisTanveer-21/Reactjs-projects/blob/main/responsive%20navbar.rar",
       featured: false,
       icon: <FaCode />
@@ -97,7 +99,7 @@ const Projects = () => {
       title: "Login Form",
       description: "A responsive login form with validation, error handling, and modern UI/UX design patterns.",
       tech: ["React.js", "Tailwind CSS", "JavaScript"],
-      category: "react",
+      category: "reactjs",
       github: "https://github.com/AwaisTanveer-21/Reactjs-projects/tree/main/zikar%20app%20loginform%20clone",
       featured: false,
       icon: <FaCode />
@@ -432,3 +434,4 @@ const Projects = () => {
 
 
 export default Projects;
+
