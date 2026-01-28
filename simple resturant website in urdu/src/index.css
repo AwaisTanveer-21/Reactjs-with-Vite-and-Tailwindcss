@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* horizontal scroll na aaye – layout overflow fix */
+html, body { overflow-x: hidden; }
